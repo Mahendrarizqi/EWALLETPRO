@@ -1,0 +1,161 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    color: #333;
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .navbar button {
+    background: #6200ee;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background: #3700b3;
+  }
+  
+  .dashboard .wallets {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+  }
+  
+  .wallet-card {
+    background: #e0e7ff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .transaction-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transaction-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .form input,
+  .form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .form button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #03dac6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form button:hover {
+    background: #018786;
+  }
+  
+  .split-bill label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .split-bill input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .split-bill button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #ff5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .split-bill button:hover {
+    background: #e64a19;
+  }
+  
+  .reminder ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .reminder li {
+    background: #fff3e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .reminder li.paid {
+    background: #c8e6c9;
+    text-decoration: line-through;
+  }
+  
+  .reminder button {
+    margin: 5px 5px 0 0;
+    padding: 5px 10px;
+    background: #6200ee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reminder button:hover {
+    background: #3700b3;
+  }
+  
+  .profile button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #2962ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .profile button:hover {
+    background: #0039cb;
+  }
+  
